@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="ru">
+ 
+<head>
+  <meta charset="UTF-8" />
+  <title>Проверочный тест по Java</title>
+  
+<style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+ 
+        *, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
+        body {background: linear-gradient(0deg, #f3c495, #5ef3a9); color:black; font: 14px;text-align: center;padding: 3%; 	
+
+}
+ 
+        .top { padding-right: 20px; background: #261F41; text-align: right; }
+        a { color: black; text-transform: uppercase; text-decoration: none; line-height: 42px; }
+ 
+        h1 {padding: 50px 0; font-weight: 400; text-align: center;}
+         #test {
+		 text-align: center;
+		 cursor: pointer;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+a {margin: 5px;
+padding: 3%;
+//border: 3px solid gray;}
+#chooseProffesionalSkills_games  {
+		 text-align: center;
+		 cursor: pointer;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;}
+#restart a{margin: 1px;
+padding: 2px;}
+#* {text-align: center;
+		 cursor: pointer;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;}
+
+#block {text-align: center;
+width: 100%;
+padding: 3%;}
+
+ </style>
+</head>
+ 
+<body>
+
+<script type="text/javascript">
+            
+            function showHide(element_id, pass) {
+                //Если элемент с id-шником element_id существует
+                if (document.getElementById(element_id)) { 
+                    //Записываем ссылку на элемент в переменную obj
+                    var obj = document.getElementById(element_id);
+                    var objpass = document.getElementById(pass); 
+                    //Если css-свойство display не block, то: 
+                    if (obj.style.display != "block") { 
+                        obj.style.display = "block"; //Показываем элемент
+						 objpass.style.display = "none"; //Показываем элемент
+                    }
+                    else{ obj.style.display = "none"; //Скрываем элемент
+					objpass.style.display = "block"; //Скрываем элемент
+                }}
+                //Если элемент с id-шником element_id не найден, то выводим сообщение
+                else alert("Элемент с id: " + element_id + " не найден!"); 
+            }   
+        </script>
+		
+<br>			
+<div id="block">
+<p>Хотите начать изучение программирования, но не знаете с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Для чего вы хотите изучить программирование?</h4>
+<div id="test">
+<a  href="javascript:void(0)" onclick="showHide('chooseProffesionalSkills_games','block')"><img src="img/lang_test/games.png" alt="Создание игр"><p>Создание игр</p></a>
+<a  href="javascript:void(0)" onclick="showHide('chooseProffesionalSkills_mobile()','block')"><img src="img/lang_test/mobile.png" alt="Мобильные приложения"><p>Мобильные приложения</p></a>
+<a  href="javascript:void(0)" onclick="showHide('chooseProffesionalSkills_web()','block')"><img src="img/lang_test/web.png" alt="Веб разработка"><p>Веб разработка</p></a>
+<br>
+<a  href="javascript:void(0)" onclick="showHide('chooseProffesionalSkills_soft()','block')"><img src="img/lang_test/comp.png" alt="Софт для компьютеров"><p>Софт для компьютеров</p></a>
+<a  href="javascript:void(0)" onclick="showHide('python1','block')"><img src="img/lang_test/data.png" alt="Обработка данных"><p>Обработка данных</p></a>
+<a  href="javascript:void(0)" onclick="showHide('python2','block')"><img src="img/lang_test/robot.png" alt="Создание искусственного интеллекта"><p>Создание искусственного интеллекта</p></a>
+</div>
+
+</div>
+
+
+
+<div id="chooseProffesionalSkills_games" style="display: none;" >
+<p>Хотите начать изучение программирования, но не знаете с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Под какие платформы вы хотите создавать игры?</h4>
+<div id="test">
+<a  href="javascript:void(0)" onclick="showHide('chooseProffesionalSkills_games_mobile','chooseProffesionalSkills_games')"><img src="img/lang_test/mobile_game.png" alt="Под мобильные телефоны"><p>Под мобильные телефоны</p></a>
+<a  href="javascript:void(0)" onclick="showHide('chooseProffesionalSkills_games_pc()','chooseProffesionalSkills_games')"><img src="img/lang_test/pc_console.png" alt="Компьютеры и игровые консоли"><p>Компьютеры и игровые консоли</p></a>
+<a  href="javascript:void(0)" onclick="showHide('C_sharp','chooseProffesionalSkills_games')"><img src="img/lang_test/virtual.png" alt="Виртуальная реальность"><p>Виртуальная реальность</p></a>
+<a  href="javascript:void(0)" onclick="showHide('HTML','chooseProffesionalSkills_games')"><img src="img/lang_test/web_game.png" alt="Web игра"><p>Web игра</p></a>
+</div>
+<br>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a></button></div>
+</div>
+
+<div id="chooseProffesionalSkills_mobile()" style="display: none;">
+<p>Хотите начать изучение программирования, но не знаете с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Под какую платформу вы хотите писать программы?</h4>
+<div id="test">
+<a  href="javascript:void(0)" onclick="showHide('Swift','chooseProffesionalSkills_mobile()');"><img src="img/lang_test/ios.png" alt="iOS"><p>iOS</p></a>
+<a  href="javascript:void(0)" onclick="showHide('Java','chooseProffesionalSkills_mobile()');"><img src="img/lang_test/android.png" alt="Андроид"><p>Андроид</p></a>
+</div>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a></button></div>
+<br>
+</div>
+
+<div id="chooseProffesionalSkills_web()" style="display: none;">
+<p>Хотите начать изучение программирования, но не знаете с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Чем бы вы хотели заниматься?</h4>
+<div id="test">
+<a  href="javascript:void(0)" onclick="showHide('JS','chooseProffesionalSkills_web()');"><img src="img/lang_test/design.png" alt="Создание дизайна и разметки сайта"><p>Создание дизайна (frontend)</p></a>
+<a  href="javascript:void(0)" onclick="showHide('chooseProffesionalSkills_web_logic()','chooseProffesionalSkills_web()');"><img src="img/lang_test/logic_website.png" alt="Работа с сервером (backend)"><p>Работа с сервером (backend)</p></a>
+</div>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a></button></div>
+</div>
+
+<div id="chooseProffesionalSkills_soft()" style="display: none;">
+<p>Хотите начать изучение программирования, но не знаете с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Под какую платформу вы хотите разрабатывать?</h4>
+<div id="test">
+<a  href="javascript:void(0)" onclick="showHide('C_plus','chooseProffesionalSkills_soft()');"><img src="img/lang_test/windows.png" alt="Windows"><p>Windows</p></a>
+<a  href="javascript:void(0)" onclick="showHide('Swift','chooseProffesionalSkills_soft()');"><img src="img/lang_test/macintosh.png" alt="Mac"><p>Mac</p></a>
+<a  href="javascript:void(0)" onclick="showHide('Java','chooseProffesionalSkills_soft()');"><img src="img/lang_test/all_platforms.png" alt="Все платформы"><p>Все платформы</p></a>
+</div>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a></button></div>
+</div>
+
+
+
+
+<div id="chooseProffesionalSkills_games_mobile" style="display: none;">
+<p>Хотите начать изучение программирования, но не знаете с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Какой тип игры вы бы хотели разрабатывать?</h4>
+<div id="test">
+<a  href="javascript:void(0)" onclick="showHide('C_sharp','chooseProffesionalSkills_games_mobile')"><img src="img/lang_test/2d.png" alt="2D игры"><p>2D игры</p></a>
+<a  href="javascript:void(0)" onclick="showHide('C_sharp','chooseProffesionalSkills_games_mobile')"><img src="img/lang_test/3d.png" alt="3D игры"><p>3D игры</p></a>
+</div>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a></button></div>
+</div>
+
+<div id="chooseProffesionalSkills_games_pc()" style="display: none;">
+<p>Хотите начать изучение программирования, но не знаете с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<div id="test">
+<a  href="javascript:void(0)" onclick="showHide('C_sharp','chooseProffesionalSkills_games_pc()')"><img src="img/lang_test/indie_game.png" alt="Небольшие игры"><p>Небольшие игры</p></a>
+<a  href="javascript:void(0)" onclick="showHide('C_sharp','chooseProffesionalSkills_games_pc()')"><img src="img/lang_test/aaa_game.png" alt="Крупные проекты"><p>Крупные проекты</p></a>
+</div>
+<br>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a></button></div>
+</div>
+
+<div id="chooseProffesionalSkills_web_logic()" style="display: none;">
+<p>Хотите начать изучение программирования, но не знаете с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Для какого направления нужен вам язык?</h4>
+<div id="test">
+<a  href="javascript:void(0)" onclick="showHide('php','chooseProffesionalSkills_web_logic()')"><img src="img/lang_test/freelance_web.png" alt="Небольшой сайт или фриланс"><p>Небольшой сайт или фриланс</p></a>
+<a  href="javascript:void(0)" onclick="showHide('python','chooseProffesionalSkills_web_logic()')"><img src="img/lang_test/startups_web.png" alt="Стартапы и небольшие компании"><p>Стартапы и небольшие компании</p></a>
+<a  href="javascript:void(0)" onclick="showHide('Java','chooseProffesionalSkills_web_logic()')"><img src="img/lang_test/traditional_web.png" alt="Большие компании"><p>Большие компании</p></a>
+</div>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a></button></div>
+</div>
+
+
+
+<div id="C_sharp" style="display: none;" >
+<p>Хотите начать изучение программирования, но не знаете, с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Мы подобрали подходящий для вас язык программирования!</h4>
+<div id="test">
+<div style="flex-basis: 80%!important;max-width:80%;cursor:default"><img src="/img/lang_test/csharp.png" alt="C#"><br><b>Язык C#</b><br>Данный язык достаточно прост в изучениb и имеет огромной набор функционала для построения веб-сайтов, программ и небольших игр. Также вы можете использовать его вместе с игровым движком Unity.<h4>Подходящие курсы</h4></div></div>
+<div id="linkedCourses"><div><a href="https://itproger.com/course/csharp"><img src="https://itproger.com/img/courses/1477042680.jpg" alt="C#"><p>Изучение C# с нуля</p></a></div><div><a href="https://itproger.com/course/unity-csharp"><img src="https://itproger.com/img/courses/1483354768.jpg" alt="C#"><p>Изучение C# под Unity</p></a></div><div><a href="https://itproger.com/tag/unity"><img src="https://itproger.com/img/courses/1476982185.jpg" alt="Unity"><p>Курсы по созданию игр на Unity</p></a></div><div><a href="https://itproger.com/course/gamemaker-rpg"><img src="https://itproger.com/img/courses/1505555017.jpg" alt="GameMaker"><p>Создание игр в GameMaker</p></a></div></div>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a><button></div>
+</div>
+
+<div id="C_plus" style="display: none;" >
+<p>Хотите начать изучение программирования, но не знаете, с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Мы подобрали подходящий для вас язык программирования!</h4>
+<div id="test">
+<div style="flex-basis: 80%!important;max-width:80%;cursor:default"><img src="/img/lang_test/csharp.png" alt="C++"><br><b>Язык C++</b><br>Данный язык достаточно прост в изучениb и имеет огромной набор функционала для построения веб-сайтов, программ и небольших игр. Большой курс по изучению языка C++ от основ и до продвинутого уровня. В курсе вы познакомитесь с языком C++, научитесь писать консольные программы, а также изучите Visual Studio. Вами будут созданы функциональные программы, умеющие работать с базой данных, а также имеющие красивый UI (пользовательский интерфейс).<h4>Подходящие курсы</h4></div></div>
+<div id="linkedCourses"><div><a href="https://itproger.com/course/cpp-full"><img src="https://itproger.com/img/courses/1544553622.jpg" alt="Изучение C++ от новичка до профи"><p>Изучение C++ с нуля</p></a></div></div>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a><button></div>
+</div>
+
+<div id="HTML" style="display: none;">
+<p>Хотите начать изучение программирования, но не знаете, с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Мы подобрали подходящий для вас язык программирования!</h4>
+<div id="test">
+<div style="flex-basis: 80%!important;max-width:80%;cursor:default"><img src="/img/lang_test/html.png" alt="HTML"><br><b>Язык разметки HTML</b><br>Чтобы создавать веб игры необходимо знать HTML5, CSS3 и JavaScript. Этих знаний вполне хватит чтобы создать полноценную веб игру со множеством элементов и анимаций.<h4>Подходящие курсы</h4></div></div>
+<div id="linkedCourses"><div><a href="https://itproger.com/course/html"><img src="https://itproger.com/img/courses/1476977240.jpg" alt="Изучение HTML"><p>Изучение HTML с нуля</p></a></div><div><a href="https://itproger.com/course/css"><img src="https://itproger.com/img/courses/1476977488.jpg" alt="Изучение CSS"><p>Изучение CSS</p></a></div><div><a href="https://itproger.com/course/javascript"><img src="https://itproger.com/img/courses/1476977754.jpg" alt="Изучение JavaScript"><p>Изучение JavaScript</p></a></div></div>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a></button></div>
+</div>
+
+<div id="Swift" style="display: none;">
+<p>Хотите начать изучение программирования, но не знаете с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Мы подобрали подходящий для вас язык программирования!</h4>
+<div id="test">
+<div style="flex-basis: 80%!important;max-width:80%;cursor:default"><img src="/img/lang_test/swift.png" alt="Swift"><br><b>Язык Swift</b><br>Разработка всех приложений и игр для iOS производиться на языке Swift. Этот язык продвигается компанией Apple и со временем он обрел большую популярность среди многих разработчиков. Он имеет простой синтаксис и большую функциональность, что позволяет создавать проекты любой сложности.<h4>Подходящий урок</h4></div></div>
+<div id="linkedCourses"><div><a href="https://itproger.com/course/swift"><img src="https://itproger.com/img/courses/1523436361.jpg" alt="Изучение Swift"><p>Уроки Swift для начинающих</p></a></div></div>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a></button></div>
+</div>
+
+<div id="Java" style="display: none;">
+<p>Хотите начать изучение программирования, но не знаете с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Мы подобрали подходящий для вас язык программирования!</h4>
+<div id="test">
+<div style="flex-basis: 80%!important;max-width:80%;cursor:default"><img src="/img/lang_test/java.png" alt="Java"><br><b>Язык Java</b><br>Язык Java простой в обучении язык, который имеет гигантское количество библиотек, расширяющих его функциональность и возможности. Все приложения написанные под Андроид используют язык Java. Для написания программ стоит использовать Android Studio.<h4>Подходящие курсы</h4></div></div>
+<div id="linkedCourses"><div><a href="https://itproger.com/course/java"><img src="https://itproger.com/img/courses/1478531306.jpg" alt="Изучение Java"><p>Изучение Java с нуля</p></a></div><div><a href="https://itproger.com/course/java-intermediate"><img src="https://itproger.com/img/courses/1515581488.jpg" alt="Java для профессионалов"><p>Java для профессионалов</p></a></div><div><a href="https://itproger.com/course/java-android"><img src="https://itproger.com/img/courses/1497013085.jpg" alt="Изучение Java Android"><p>Изучение Java Android</p></a></div></div>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a></button></div>
+</div>
+
+<div id="JS" style="display: none;">
+<p>Хотите начать изучение программирования, но не знаете с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Мы подобрали подходящий для вас язык программирования!</h4>
+<div id="test">
+<div style="flex-basis: 80%!important;max-width:80%;cursor:default"><img src="/img/lang_test/javascript.png" alt="JavaScript"><br><b>Язык JavaScript</b><br>Для создания дизайна и разметки сайта вам потребуется язык JavaScript, а также дополнительные языки разметки - HTML и CSS. Этих знаний вам полностью хватит чтобы создавать простые сайты с красивым дизайном.<h4>Подходящие курсы</h4></div></div>
+<div id="linkedCourses"><div><a href="https://itproger.com/course/html"><img src="https://itproger.com/img/courses/1476977240.jpg" alt="Изучение HTML"><p>Изучение HTML с нуля</p></a></div><div><a href="https://itproger.com/course/css"><img src="https://itproger.com/img/courses/1476977488.jpg" alt="Изучение CSS"><p>Изучение CSS</p></a></div><div><a href="https://itproger.com/course/javascript"><img src="https://itproger.com/img/courses/1476977754.jpg" alt="Изучение JavaScript"><p>Изучение JavaScript</p></a></div><div><a href="https://itproger.com/course/website"><img src="https://itproger.com/img/courses/1477929964.jpg" alt="Создание сайта с нуля"><p>Создание сайта с нуля</p></a></div></div>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a></button></div>
+</div>
+
+<div id="php" style="display: none;">
+<p>Хотите начать изучение программирования, но не знаете с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Мы подобрали подходящий для вас язык программирования!</h4>
+<div id="test"><div style="flex-basis: 80%!important;max-width:80%;cursor:default"><img src="/img/lang_test/php.png" alt="PHP"><br><b>Язык PHP</b><br>PHP является самым популярным языком в мире для создания веб сайтов. Если вы решили создать небольшой сайт или же работать на фрилансе, то данный язык будет самым удобным для вас. Его изучение не займет много времени, а его возможности позволят построить даже очень крупные проекты. К примеру, на PHP написан сайт Вконтакте, а также социальная сеть FaceBook. Помимо PHP вам потребуется еще знания в HTML, CSS, JavaScript и работе с базами данных.<h4>Подходящие курсы</h4></div></div>
+<div id="linkedCourses"><div><a href="https://itproger.com/course/php-mysql"><img src="https://itproger.com/img/courses/1476980064.jpg" alt="Изучение PHP и MySQL"><p>Изучение PHP и MySQL</p></a></div><div><a href="https://itproger.com/course/html"><img src="https://itproger.com/img/courses/1476977240.jpg" alt="Изучение HTML"><p>Изучение HTML с нуля</p></a></div><div><a href="https://itproger.com/course/css"><img src="https://itproger.com/img/courses/1476977488.jpg" alt="Изучение CSS"><p>Изучение CSS</p></a></div><div><a href="https://itproger.com/course/javascript"><img src="https://itproger.com/img/courses/1476977754.jpg" alt="Изучение JavaScript"><p>Изучение JavaScript</p></a></div><div><a href="https://itproger.com/course/php-website"><img src="https://itproger.com/img/courses/1476981881.jpg" alt="Создание сайта на PHP"><p>Создание сайта на PHP</p></a></div><div><a href="https://itproger.com/course/wordpress"><img src="https://itproger.com/img/courses/1522696846.jpg" alt="Создание сайта на WordPress"><p>Сайт на WordPress</p></a></div></div>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a></button></div>
+</div>
+
+<div id="python" style="display: none;">
+<p>Хотите начать изучение программирования, но не знаете с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Мы подобрали подходящий для вас язык программирования!</h4>
+<div id="test"><div style="flex-basis: 80%!important;max-width:80%;cursor:default"><img src="/img/lang_test/python.png" alt="Python"><br><b>Язык Python</b><br>Для разраобтки стартапов или небольших компаний вы можете использовать более современные языки и технологии. Одним из лучших вариантов является использование языка Python и библиотеки Django.<br><br>В тоже время, помимо Python можно также использовать язык Ruby или же писать сайты на JavaScript (NodeJS). Здесь принципиальной разницы нет и стоит изучать то, что больше понравиться по синтаксису или же описанию.<h4>Подходящие курсы</h4></div></div>
+<div id="linkedCourses"><div><a href="https://itproger.com/course/html"><img src="https://itproger.com/img/courses/1476977240.jpg" alt="Изучение HTML"><p>Изучение HTML с нуля</p></a></div><div><a href="https://itproger.com/course/css"><img src="https://itproger.com/img/courses/1476977488.jpg" alt="Изучение CSS"><p>Изучение CSS</p></a></div><div><a href="https://itproger.com/tag/javascript"><img src="https://itproger.com/img/courses/1476977754.jpg" alt="Изучение JavaScript"><p>Курсы по изучению JavaScript</p></a></div><div><a href="https://itproger.com/course/python"><img src="https://itproger.com/img/courses/1479108898.jpg" alt="Изучение Python с нуля"><p>Изучение Python с нуля</p></a></div><div><a href="https://itproger.com/course/django"><img src="https://itproger.com/img/courses/1508841661.jpg" alt="Изучение библиотеки Django"><p>Изучение библиотеки Django</p></a></div></div>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a></button></div>
+</div>
+
+<div  id="python1" style="display: none;">
+<p>Хотите начать изучение программирования, но не знаете с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Мы подобрали подходящий для вас язык программирования!</h4>
+<div id="test"><div style="flex-basis: 80%!important;max-width:80%;cursor:default"><img src="/img/lang_test/python.png" alt="Python"><br><b>Язык Python</b><br>Python это хороший язык для обработки больших данных и сбора информации. Питон часто обновляется и в него добавляют новые возможности. Изучение Python считается хорошим решением, так как в дальнейшем он будет лишь становиться все популярнее и популярнее.<br><br>Кроме того, если вы не ищете легких путей и хотите сильно погрузиться в сбор данных, то вам стоит обратить свое внимание на язык R. Он был разработан специально под эти цели и является лучшим представителем своего дела.<h4>Подходящий курс</h4></div></div>
+<div id="linkedCourses"><div><a href="https://itproger.com/course/python"><img src="https://itproger.com/img/courses/1479108898.jpg" alt="Изучение Python с нуля"><p>Изучение Python с нуля</p></a></div></div>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a></button></div>
+</div>
+
+<div id="python2" style="display: none;">
+<p>Хотите начать изучение программирования, но не знаете с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
+<h4>Мы подобрали подходящий для вас язык программирования!</h4>
+<div id="test"><div style="flex-basis: 80%!important;max-width:80%;cursor:default"><img src="/img/lang_test/python.png" alt="Python"><br><b>Язык Python</b><br>Python хороший язык для создания искусственного интеллекта. Его можно легко изучить и создавать прототипы ИИ. Поскольку создание ИИ базируется на создании различных математических формул, просчета данных и прочих вещей, то изучив Python вы не научитесь создавать умные ИИ. Тем не менее, вы сможете описывать всю логику и функциональсть при помощи языка Python.<h4>Подходящий курс</h4></div></div>
+<div id="linkedCourses"><div><a href="https://itproger.com/course/python"><img src="https://itproger.com/img/courses/1479108898.jpg" alt="Изучение Python с нуля"><p>Изучение Python с нуля</p></a></div></div>
+<div id="restart"><button style="display: inline-block;"><a href="#" onClick="window.location.reload( true );">Начать заново </a></button></div>
+</div>
+
+</div>
+</body>
+</html>

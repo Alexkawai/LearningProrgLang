@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="ru">
+ 
+<head>
+  <meta charset="UTF-8" />
+  <title>Проверочный тест по Java</title>
+  
+<style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+ 
+        *, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
+        body {background: linear-gradient(0deg, white, #50e68c); color:black; font: 14px 'Open Sans', sans-serif;}
+ 
+        .top { padding-right: 20px; background: #261F41; text-align: right; }
+        a { color: rgba(255,255,255,0.6); text-transform: uppercase; text-decoration: none; line-height: 42px; }
+ 
+        h1 {padding: 50px 0; font-weight: 400; text-align: center;}
+         
+        .main {margin: 0 auto; max-width: 500px;}
+        .main .quizsection {margin-bottom: 20px;}
+ </style>
+</head>
+ 
+<body>
+ 
+<h1>Проверочный тест по <b>Java</b></h1>
+ 
+<div style="text-align: left;">
+
+             <form name="quiz" action="javascript:check();" class="quizform" method="post">
+ <span style="font-weight: 900;">1. Что общего у всех элементов массива?</span>
+                                    <div style="margin-top: 5px"></div>
+                                        <label style="margin-top: 5px;margin-left: 10px;">
+        <input type="radio" size="40" name="q1" id="question17" value="0" required="">
+        Их тип данных                                      </label>
+    <br>
+                                        <label style="margin-top: 5px;margin-left: 10px;">
+        <input type="radio" size="40" name="q1" id="question17" value="1" required="">
+        Их адрес в памяти                                     </label>
+    <br>
+	                                     <label style="margin-top: 5px;margin-left: 10px;">
+	<input type="radio" size="40" name="q1" id="question17" value="2" required="">
+        Их размер                                   </label>
+    <br>
+                                                                        <br>
+<span style="font-weight: 900;">2. Какой класс отвечает за получение информации от пользователя?</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q2" id="question5" value="2" required="">
+                                             Out                                      </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q2" id="question5" value="1" required="">
+                                            Get                                      </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q2" id="question5" value="0" required="">
+                                           Scanner                                     </label>
+                                        <br>    
+                                                                        <br>
+ <span style="font-weight: 900;">3. Для чего можно использовать Java?</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q3" id="question15" value="2" required="">
+                                            Для создания сайтов                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q3" id="question15" value="0" required="">
+                                            Для всего написанного и не только                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q3" id="question15" value="3" required="">
+                                            Для создания программ                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q3" id="question15" value="1" required="">
+                                            Только для создания игр и программ                                      </label>
+                                        <br>
+                                                                        <br>
+ <span style="font-weight: 900;">4.  Что выведет этот код?</span><br>
+ <div style="margin-left:5%;">int a = 9;<br>
+boolean isDone = false;<br>
+if (a % 3 != 0 || !isDone)   <br>
+    System.out.print("Текст вывелся");<br> </div>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q4" id="question27" value="0" required="">
+                                            Выведет текст "Текст вывелся"                                      </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q4" id="question27" value="3" required="">
+                                             Ничего не будет выведено в консоль                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q4" id="question27" value="1" required="">
+                                            Ошибку в коде                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q4" id="question27" value="2" required="">
+                                            Выведет текст "a = 9 "                                      </label>
+                                        <br>
+                                                                        <br>
+ <span style="font-weight: 900;">5. В чем здесь ошибка?</span>
+  <div style="margin-left:5%;">int a, b;<br>
+System.out.print("Введите первое число: ");<br>
+Scanner num = new Scanner(System.in);<br>
+a = num.nextFloat ();<br> </div>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q5" id="question32" value="2" required="">
+                                            Ошибок нет                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q5" id="question32" value="1" required="">
+                                            int a, b; - надо записывать по отдельности                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q5" id="question32" value="0" required="">
+                                            Вместо nextFloat надо использовать nextInt                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q5" id="question32" value="3" required="">
+                                            Вместо System.in надо использовать System.out                                         </label>
+                                        <br>
+                                                                        <br>
+ <span style="font-weight: 900;">6. Где правильно создан массив?</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q6" id="question28" value="3" required="">
+                                            int a = new int[ ] {1, 2, 3, 4, 5};                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q6" id="question28" value="2" required="">
+                                            int[ ] a = new int {1, 2, 3, 4, 5};                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q6" id="question28" value="0" required="">
+                                            int[ ] a = new int[ ] {1, 2, 3, 4, 5};                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q6" id="question28" value="1" required="">
+                                             int a[ ] = {1, 2, 3, 4, 5};                                  </label>
+                                        <br>
+                                                                        <br>
+<span style="font-weight: 900;">7.  Выберите метод позволяющий округлить число до ближайшего целого.</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q7" id="question19" value="1" required="">
+                                            floor                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q7" id="question19" value="0" required="">
+                                            round                                      </label>
+                                        <br>
+										                                <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q7" id="question19" value="2" required="">
+                                            ceil                                       </label>
+                                        <br>
+										                                <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q7" id="question19" value="3" required="">
+                                            around                                      </label>
+                                        <br>
+                                                                        <br>
+ <span style="font-weight: 900;">8. Где правильно присвоено новое значение к многомерному массиву?</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q8" id="question20" value="1" required="">
+                                            a[0, 0] = 1;                                      </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q8" id="question20" value="0" required="">
+                                            a[0][0] = 1;                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q8" id="question20" value="2" required="">
+                                            a{0}{0} = 1;                                     </label>
+                                        <br>
+                                                                        <br>
+<span style="font-weight: 900;">9. С чего начинается любая программа на Java</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q9" id="question8" value="2" required="">
+                                            это можно задать в настройках                                      </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q9" id="question8" value="0" required="">
+                                            с функции main                                      </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q9" id="question8" value="1" required="">
+                                            с первого класса, который вы лично напишите                                     </label>
+                                        <br>                             
+                                                                        <br>
+      <br>
+</div>   
+ <div style="text-align: center">
+  <div class="waves-input-wrapper waves-effect waves-light">
+<br>
+<input class="btn btn-success btn-lg" type="submit" value="Получить результат" style="color: black;
+	cursor: pointer;
+	font-size:20px;
+	background:#50e68c;
+	padding-left:20px;
+	padding-right:20px;	
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius: 50px ;">
+<input value="Сбросить" type="reset" style="color: black;
+	cursor: pointer;
+	font-size:20px;
+	background:#50e68c;
+	padding-left:20px;
+	padding-right:20px;	
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius: 50px ;">
+</div>
+ </div>
+</form>
+
+<script type="text/javascript">// <![CDATA[    
+   function check()
+{ 
+      var question=1;
+      var value1=0;
+      var value2=0; 
+      var choice;
+       
+      for (question = 1; question <= 9; question++) {       
+         var q = document.forms['quiz'].elements['q'+question];
+            for (var i = 0; i < q.length; i++) {
+               if (q[i].checked) {
+                  choice = q[i].value;
+               }
+            }
+            if (choice == "0") {
+               value1++;			 
+            }
+			else{ 
+			 value2++;
+			alert("В "+question+"-м вопросе ошибка");
+			}
+         }
+ 	if(value2==0)alert("Вы успешно справились с тестом!!!");
+	else
+	alert("Количество неправильных ответов: "+value2);
+   }
+</script>
+<br><br> 
+</body>
+</html>

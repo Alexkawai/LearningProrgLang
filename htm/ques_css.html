@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="ru">
+ 
+<head>
+  <meta charset="UTF-8" />
+  <title>Проверочный тест по CSS</title>
+  
+<style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+ 
+        *, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
+        body {background: linear-gradient(0deg, white, #50e68c); color:black; font: 14px 'Open Sans', sans-serif;}
+ 
+        .top { padding-right: 20px; background: #261F41; text-align: right; }
+        a { color: rgba(255,255,255,0.6); text-transform: uppercase; text-decoration: none; line-height: 42px; }
+ 
+        h1 {padding: 50px 0; font-weight: 400; text-align: center;}
+         
+        .main {margin: 0 auto; max-width: 500px;}
+        .main .quizsection {margin-bottom: 20px;}
+ </style>
+</head>
+ 
+<body>
+ 
+<h1>Проверочный тест по <b>CSS</b></h1>
+ 
+<div style="text-align: left;">
+
+             <form name="quiz" action="javascript:check();" class="quizform" method="post">
+ <span style="font-weight: 900;">1. Как расшифровывается CSS? 
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q1" id="question17" value="0" required="">
+                                            Cascading Style Sheets                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q1" id="question17" value="1" required="">
+                                            Common Style Sheets                                      </label>
+                                        <br>
+										                                     <label style="margin-top: 5px;margin-left: 10px;">
+										<input type="radio" size="40" name="q1" id="question17" value="2" required="">
+                                            Computer Style Sheets                                      </label>
+                                        <br>
+                                                                        <br>
+<span style="font-weight: 900;">2. Выберите синтаксически корректное CSS правило.</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q2" id="question5" value="2" required="">
+                                             div:[font_size-2em]                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q2" id="question5" value="1" required="">
+                                            div [font-size:2em]                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q2" id="question5" value="0" required="">
+                                            div {font-size:2em}                                      </label>
+                                        <br>
+										                                     <label style="margin-top: 5px;margin-left: 10px;">
+										    <input type="radio" size="40" name="q2" id="question5" value="3" required="">
+                                               div {font_size:2em}                                     </label>
+                                        <br>
+                                                                        <br>
+ <span style="font-weight: 900;">3. Укажите CSS свойство позволяющее устанавливать размер шрифта?</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q3" id="question15" value="2" required="">
+                                            font-weight                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q3" id="question15" value="0" required="">
+                                            font-size                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q3" id="question15" value="3" required="">
+                                            size                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q3" id="question15" value="1" required="">
+                                            weight                                       </label>
+                                        <br>
+                                                                        <br>
+ <span style="font-weight: 900;">4.  Выберите свойство с правильно заданным значением цвета.</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q4" id="question27" value="0" required="">
+                                            color:#000000                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q4" id="question27" value="3" required="">
+                                            color:00-00-00                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q4" id="question27" value="1" required="">
+                                            color:%00-00-00                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q4" id="question27" value="2" required="">
+                                            color:#00:00:00                                        </label>
+                                        <br>
+                                                                        <br>
+ <span style="font-weight: 900;">5. С помощью какого тэга можно подключить к HTML документу внешний файл стилей?</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q5" id="question32" value="2" required="">
+                                            &lt;meta&gt;                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q5" id="question32" value="1" required="">
+                                            &lt;css&gt;                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q5" id="question32" value="0" required="">
+                                            &lt;link&gt;                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q5" id="question32" value="3" required="">
+                                            &lt;style&gt;                                        </label>
+                                        <br>
+                                                                        <br>
+ <span style="font-weight: 900;">6. С помощью какого CSS свойства можно оформить границу элемента?</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q6" id="question28" value="3" required="">
+                                            padding                                         </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q6" id="question28" value="2" required="">
+                                            margin                                         </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q6" id="question28" value="0" required="">
+                                            border                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q6" id="question28" value="1" required="">
+                                            outline                                       </label>
+                                        <br>
+                                                                        <br>
+<span style="font-weight: 900;">7. Выберите перечень содержащий единицы измерения, которые используются в CSS для установки размера шрифта.
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q7" id="question19" value="1" required="">
+                                            kg, g, cm                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q7" id="question19" value="0" required="">
+                                            em, px                                        </label>
+                                        <br>
+										                                <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q7" id="question19" value="2" required="">
+                                            %, dm                                       </label>
+                                        <br>
+										                                <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q7" id="question19" value="3" required="">
+                                            y, cm, px                                        </label>
+                                        <br>
+                                                                        <br>
+ <span style="font-weight: 900;">8. Какие виды позиционирования элементов существуют в CSS.</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q8" id="question20" value="1" required="">
+                                            flow, none, show, shift                                         </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q8" id="question20" value="0" required="">
+                                            absolute, relative, static, fixed                                         </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q8" id="question20" value="2" required="">
+                                            slip, relating, attached, static                                        </label>
+                                        <br>
+                                                                        <br>
+<span style="font-weight: 900;">9. Выберите перечень содержащий только существующие CSS свойства фона. </span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q9" id="question8" value="2" required="">
+                                            background-align, background-image, background-attachment                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q9" id="question8" value="0" required="">
+                                            background-color, background-repeat, background-attachment                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q9" id="question8" value="1" required="">
+                                            background-repeat, background-position, background-picture                                        </label>
+                                        <br>                             
+                                                                        <br>
+ <span style="font-weight: 900;">10. Выберите псевдо-класс позволяющий оформить ссылки, на которые наведен курсор мыши. </span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q10" id="question0" value="3" required="">
+                                            :link                                      </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q10" id="question0" value="0" required="">
+                                            :hover                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q10" id="question0" value="2" required="">
+                                            :visited                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q10" id="question0" value="1" required="">
+                                            :active                                       </label>
+                                        <br>
+                                                                        <br>
+ <span style="font-weight: 900;">11. Какие CSS свойства использовались для оформления границы элемента ниже. </span><br>
+<div id="exwrap" style="width:330px;text-align:center;">
+<p style="border:5px red dotted;">Элемент оформленный с помощью CSS</p>
+</div>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q11" id="question1" value="1" required="">
+                                            border-type и border-color                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q11" id="question1" value="0" required="">
+                                            border-color, border-style, border-width                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q11" id="question1" value="2" required="">
+                                            border-color, border-weight, border-type                                       </label>
+                                        <br>
+                                                                        <br>
+<span style="font-weight: 900;">12. Какое CSS свойство позволяет управлять порядком наложения элементов?</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q12" id="question3" value="0" required="">
+                                            z-index                     </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q12" id="question3" value="3" required="">
+                                            index                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q12" id="question3" value="2" required="">
+                                            stack                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q12" id="question3" value="1" required="">
+                                            order                                       </label>
+                                        <br>
+                                                                        <br>
+      <br>
+</div>   
+ <div style="text-align: center">
+  <div class="waves-input-wrapper waves-effect waves-light">
+<br>
+<input class="btn btn-success btn-lg" type="submit" value="Получить результат" style="color: black;
+	cursor: pointer;
+	font-size:20px;
+	background:#50e68c;
+	padding-left:20px;
+	padding-right:20px;	
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius: 50px ;">
+<input value="Сбросить" type="reset" style="color: black;
+	cursor: pointer;
+	font-size:20px;
+	background:#50e68c;
+	padding-left:20px;
+	padding-right:20px;	
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius: 50px ;">
+</div>
+ </div>
+</form>
+
+<script type="text/javascript">// <![CDATA[    
+   function check()
+{ 
+      var question=1;
+      var value1=0;
+      var value2=0; 
+      var choice;
+       
+      for (question = 1; question <= 12; question++) {       
+         var q = document.forms['quiz'].elements['q'+question];
+            for (var i = 0; i < q.length; i++) {
+               if (q[i].checked) {
+                  choice = q[i].value;
+               }
+            }
+            if (choice == "0") {
+               value1++;			 
+            }
+			else{ 
+			 value2++;
+			alert("В "+question+"-м вопросе ошибка");
+			}
+         }
+ 	if(value2==0)alert("Вы успешно справились с тестом!!!");
+	else
+	alert("Количество неправильных ответов: "+value2);
+   }
+</script>
+<br><br> 
+</body>
+</html>

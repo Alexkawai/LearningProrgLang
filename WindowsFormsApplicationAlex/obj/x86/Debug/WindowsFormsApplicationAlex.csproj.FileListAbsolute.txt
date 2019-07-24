@@ -1,0 +1,36 @@
+c:\users\lehai\documents\visual studio 2010\Projects\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\bin\Debug\WindowsFormsApplicationAlex.exe
+c:\users\lehai\documents\visual studio 2010\Projects\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\bin\Debug\WindowsFormsApplicationAlex.pdb
+c:\users\lehai\documents\visual studio 2010\Projects\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.Form_Account.resources
+c:\users\lehai\documents\visual studio 2010\Projects\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.Form_goout.resources
+c:\users\lehai\documents\visual studio 2010\Projects\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.Form_Main.resources
+c:\users\lehai\documents\visual studio 2010\Projects\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.Form_Tests.resources
+c:\users\lehai\documents\visual studio 2010\Projects\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.Properties.Resources.resources
+c:\users\lehai\documents\visual studio 2010\Projects\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.csproj.GenerateResource.Cache
+c:\users\lehai\documents\visual studio 2010\Projects\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.exe
+c:\users\lehai\documents\visual studio 2010\Projects\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.pdb
+C:\Users\u3281.STUD\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.exe
+C:\Users\u3281.STUD\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.pdb
+C:\Users\u3281.STUD\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\bin\Debug\WindowsFormsApplicationAlex.exe
+C:\Users\u3281.STUD\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\bin\Debug\WindowsFormsApplicationAlex.pdb
+C:\Users\u3281.STUD\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\bin\Debug\MySql.Data.dll
+C:\Users\u3281.STUD\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.csprojResolveAssemblyReference.cache
+C:\Users\u3281.STUD\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.Form_Account.resources
+C:\Users\u3281.STUD\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.Form_goout.resources
+C:\Users\u3281.STUD\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.Form_Main.resources
+C:\Users\u3281.STUD\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.Form_Tests.resources
+C:\Users\u3281.STUD\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.Properties.Resources.resources
+C:\Users\u3281.STUD\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.csproj.GenerateResource.Cache
+C:\Users\lehai\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.exe
+C:\Users\lehai\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.pdb
+C:\Users\lehai\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\bin\Debug\WindowsFormsApplicationAlex.exe
+C:\Users\lehai\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\bin\Debug\WindowsFormsApplicationAlex.pdb
+C:\Users\lehai\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\bin\Debug\MySql.Data.dll
+C:\Users\lehai\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.Form_Account.resources
+C:\Users\lehai\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.Form_goout.resources
+C:\Users\lehai\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.Form_Main.resources
+C:\Users\lehai\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.Form_Tests.resources
+C:\Users\lehai\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.Properties.Resources.resources
+C:\Users\lehai\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.csproj.GenerateResource.Cache
+C:\Users\lehai\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.csprojAssemblyReference.cache
+C:\Users\lehai\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.csproj.CoreCompileInputs.cache
+C:\Users\lehai\Documents\WindowsFormsApplicationAlex\WindowsFormsApplicationAlex\obj\x86\Debug\WindowsFormsApplicationAlex.csproj.CopyComplete

@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="ru">
+ 
+<head>
+  <meta charset="UTF-8" />
+  <title>Проверочный тест по JavaScript</title>
+  
+<style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+ 
+        *, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
+        body {background: linear-gradient(0deg, white, #50e68c); color:black; font: 14px 'Open Sans', sans-serif;}
+ 
+        .top { padding-right: 20px; background: #261F41; text-align: right; }
+        a { color: rgba(255,255,255,0.6); text-transform: uppercase; text-decoration: none; line-height: 42px; }
+ 
+        h1 {padding: 50px 0; font-weight: 400; text-align: center;}
+         
+        .main {margin: 0 auto; max-width: 500px;}
+        .main .quizsection {margin-bottom: 20px;}
+ </style>
+</head>
+ 
+<body>
+ 
+<h1>Проверочный тест по <b>JavaScript</b></h1>
+ 
+<div style="text-align: left;">
+
+             <form name="quiz" action="javascript:check();" class="quizform" method="post">
+ <span style="font-weight: 900;">1. В каком месте HTML документа может располагаться JavaScript код?</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q1" id="question17" value="0" required="">
+                                            В секции &lt;head&gt; и в секции &lt;body&gt                                      </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q1" id="question17" value="1" required="">
+                                            В секции &lt;body&gt                                      </label>
+                                        <br>
+										                                     <label style="margin-top: 5px;margin-left: 10px;">
+										<input type="radio" size="40" name="q1" id="question17" value="2" required="">
+                                            В секции &lt;head&gt                                     </label>
+                                        <br>
+                                                                        <br>
+<span style="font-weight: 900;">2. Выберите JavaScript команду позволяющую вывести текст на страницу.</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q2" id="question5" value="2" required="">
+                                             write('Текст выведен с помощью JavaScript')                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q2" id="question5" value="1" required="">
+                                            text('Текст выведен с помощью JavaScript')                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q2" id="question5" value="0" required="">
+                                            document.write('Текст выведен с помощью JavaScript')                                     </label>
+                                        <br>    
+                                                                        <br>
+ <span style="font-weight: 900;">3. Какое событие позволяет выполнять код после щелчка мыши?</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q3" id="question15" value="2" required="">
+                                            OnMouseClick                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q3" id="question15" value="0" required="">
+                                            OnClick                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q3" id="question15" value="3" required="">
+                                            MouseClick                                         </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q3" id="question15" value="1" required="">
+                                            MouseOut                                       </label>
+                                        <br>
+                                                                        <br>
+ <span style="font-weight: 900;">4.  Выберите перечень содержащий только действительно существующие в JavaScript циклы.</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q4" id="question27" value="0" required="">
+                                            for, while, do..while                                      </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q4" id="question27" value="3" required="">
+                                             loop, for, while                                         </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q4" id="question27" value="1" required="">
+                                            while, for..in, cycle                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q4" id="question27" value="2" required="">
+                                            circle, while, switch                                        </label>
+                                        <br>
+                                                                        <br>
+ <span style="font-weight: 900;">5. Выберите синтаксически корректную команду для создания массива.</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q5" id="question32" value="2" required="">
+                                            var ar={}                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q5" id="question32" value="1" required="">
+                                            var ar=new String()                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q5" id="question32" value="0" required="">
+                                            var ar=new Array()                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q5" id="question32" value="3" required="">
+                                            var ar=create Array()                                         </label>
+                                        <br>
+                                                                        <br>
+ <span style="font-weight: 900;">6. Выберите синтаксически корректную условную конструкцию.</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q6" id="question28" value="3" required="">
+                                             if (a==3) create document.write('Привет')                                         </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q6" id="question28" value="2" required="">
+                                            if (a==3) then document.write('Привет')                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q6" id="question28" value="0" required="">
+                                            if (a==3) document.write('Привет')                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q6" id="question28" value="1" required="">
+                                             if (a==3) make document.write('Привет')                                     </label>
+                                        <br>
+                                                                        <br>
+<span style="font-weight: 900;">7.  Выберите метод позволяющий округлить число до ближайшего целого.</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q7" id="question19" value="1" required="">
+                                            floor                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q7" id="question19" value="0" required="">
+                                            round                                      </label>
+                                        <br>
+										                                <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q7" id="question19" value="2" required="">
+                                            ceil                                       </label>
+                                        <br>
+										                                <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q7" id="question19" value="3" required="">
+                                            around                                      </label>
+                                        <br>
+                                                                        <br>
+ <span style="font-weight: 900;">8. Укажите название встроенного JavaScript объекта для работы с датой и временем.</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q8" id="question20" value="1" required="">
+                                            datetime                                         </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q8" id="question20" value="0" required="">
+                                            date                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q8" id="question20" value="2" required="">
+                                            calendar                                      </label>
+                                        <br>
+                                                                        <br>
+<span style="font-weight: 900;">9. Что будет результатом кода? <br>
+<div style="margin-left:5%;">function c() {<br>
+  var a = 1;<br>
+  if(a == 1)
+  var b = 2;<br>
+  return b;
+  }<br>
+  alert(c()); </div></span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q9" id="question8" value="2" required="">
+                                            undefined                                      </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q9" id="question8" value="0" required="">
+                                            2                                       </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q9" id="question8" value="1" required="">
+                                            1                                       </label>
+                                        <br>                             
+                                                                        <br>
+ <span style="font-weight: 900;">10. Выберите комментарий использующийся в JavaScript. </span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q10" id="question0" value="3" required="">
+                                           &lt;!— Я являюсь комментарием --&gt                                    </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q10" id="question0" value="0" required="">
+                                            //Я являюсь комментарием                                         </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q10" id="question0" value="2" required="">
+                                              &lt;? Я являюсь комментарием ?&gt                                 </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q10" id="question0" value="1" required="">
+                                            -\\ Я являюсь комментарием //-                                       </label>
+                                        <br>
+                                                                        <br>
+ <span style="font-weight: 900;">11. Выберите JavaScript команду создающую строковую переменную.</span><br>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q11" id="question1" value="1" required="">
+                                             var str=new Object("Строковая переменная")                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q11" id="question1" value="0" required="">
+                                            var str="Строковая переменная"                                        </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q11" id="question1" value="2" required="">
+                                           var str=new Array("Строковая переменная")                                       </label>
+                                        <br>
+                                                                        <br>
+<span style="font-weight: 900;">12. Выберите синтаксически корректную JavaScript команду для вызова функции "callFunction()".</span>
+                                    <div style="margin-top: 5px"></div>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q12" id="question3" value="0" required="">
+                                            function callFunction()                   </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q12" id="question3" value="3" required="">
+                                            callFunction()                                         </label>
+                                        <br>
+                                                                            <label style="margin-top: 5px;margin-left: 10px;">
+                                            <input type="radio" size="40" name="q12" id="question3" value="2" required="">
+                                            new callFunction()                                       </label>
+                                        <br>                                                 
+                                                                        <br>
+      <br>
+</div>   
+ <div style="text-align: center">
+  <div class="waves-input-wrapper waves-effect waves-light">
+<br>
+<input class="btn btn-success btn-lg" type="submit" value="Получить результат" style="color: black;
+	cursor: pointer;
+	font-size:20px;
+	background:#50e68c;
+	padding-left:20px;
+	padding-right:20px;	
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius: 50px ;">
+<input value="Сбросить" type="reset" style="color: black;
+	cursor: pointer;
+	font-size:20px;
+	background:#50e68c;
+	padding-left:20px;
+	padding-right:20px;	
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius: 50px ;">
+</div>
+ </div>
+</form>
+
+<script type="text/javascript">// <![CDATA[    
+   function check()
+{ 
+      var question=1;
+      var value1=0;
+      var value2=0; 
+      var choice;
+       
+      for (question = 1; question <= 12; question++) {       
+         var q = document.forms['quiz'].elements['q'+question];
+            for (var i = 0; i < q.length; i++) {
+               if (q[i].checked) {
+                  choice = q[i].value;
+               }
+            }
+            if (choice == "0") {
+               value1++;			 
+            }
+			else{ 
+			 value2++;
+			alert("В "+question+"-м вопросе ошибка");
+			}
+         }
+ 	if(value2==0)alert("Вы успешно справились с тестом!!!");
+	else
+	alert("Количество неправильных ответов: "+value2);
+   }
+</script>
+<br><br> 
+</body>
+</html>
